@@ -1,0 +1,10 @@
+'''
+faça um programa que leia  a partir da digitação de um usuário
+a descrição de um produto, o seu valor unitário e a quantidade
+o programa deve calcular e informar o valor e pagar pelo produto
+'''
+descrição = input ('descrição ao produto:')
+valor = float(input('digite o valor unitário:'))
+quantidade = int(input('digite a quantidade:'))
+total = valor * quantidade
+print ('valor a oagar:', total)
