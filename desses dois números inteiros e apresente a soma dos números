@@ -1,0 +1,8 @@
+'''
+faça um programa que lçeia dois números inteiros e apresente a soma dos números.
+'''
+
+valor1 = int( input('digite um valor:'))
+valor2 = int( input ('digite outro valor'))
+soma = valor1 + valor2
+print ('soma dos valores:', soma)
